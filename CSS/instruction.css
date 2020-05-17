@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+}
+html,
+body{
+    height: 100%;
+    
+}
+/*header*/
+
+.flex-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0.25rem 0.25rem 0.25rem 0.25rem #f7f7f7;
+    padding-left: 1rem;
+    margin-bottom: 1.25rem;
+    opacity: 0.98;
+
+  }
+  .logo{
+    padding-top: 1.3rem;
+
+  }
+  .logo a{
+      font-size: 2rem;
+      
+      
+  }
+  .logo-sparq{
+      padding-bottom:0.5rem;
+      padding-top:0;
+      padding-right: 0.5rem;
+      padding-left:2rem;
+  }
+.header-icon{
+    padding-right: 1rem;
+    padding-top: 1.3rem;
+    padding-bottom: 0.5rem;
+    height:2.4rem;
+}
+  
+  header a {
+    
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
+ /*body*/
+.flex{
+    display: flex;
+
+}
+.left-palette{
+    width: 25%;
+    background-color: rgb(243, 243, 243);
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.round-image{
+    border-radius: 50%;
+    padding-top: 2rem;
+    
+    
+}
+.user-name{
+    padding-left: 6.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: grey;
+    margin-top: 0rem;
+    
+}
+
+.user-photo{
+    text-align: center;
+}
+.dashboard{
+    padding-left: 4.5rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    color:rgb(59, 59, 59);
+    
+}
+.copyright{
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.85rem;
+    padding-top: 1rem;
+    
+}
+.score{
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    
+}
+.pt{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.instruction{
+    margin-left: 2.5rem;
+}
+.heading-ins{
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.no{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.stmt{
+    font-size: 1.3rem;
+    margin-left: 1.4rem;
+    width:85%;
+    padding-top: 1.2rem;
+    
+}
+.arrow{
+    margin-top: 0.8rem;
+    margin-bottom: 0.4rem;
+}
+.flex-ins{
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: 0.35rem 0.35rem 0.35rem 0.5rem #f7f7f7;
+    margin-top: 2rem;
+}
